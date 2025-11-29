@@ -1,0 +1,52 @@
+:root {
+  --spacex-navy: #005288;
+  --spacex-dark: #000000;
+  --spacex-white: #ffffff;
+  --spacex-blue-light: #0077be;
+  --spacex-gray: #2c3e50;
+  --spacex-gray-light: #ecf0f1;
+  --spacex-text: #ffffff;
+  --spacex-text-secondary: #bdc3c7;
+  --spacex-border: #34495e;
+  --spacex-success: #27ae60;
+  --spacex-error: #e74c3c;
+  --spacex-warning: #f39c12;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  background: var(--spacex-dark);
+  color: var(--spacex-text);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--spacex-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--spacex-navy);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--spacex-blue-light);
+}
+

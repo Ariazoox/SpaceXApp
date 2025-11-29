@@ -1,0 +1,7 @@
+.app {
+  min-height: 100vh;
+  background: var(--spacex-dark);
+  position: relative;
+  overflow-x: hidden;
+}
+
